@@ -40,7 +40,7 @@ app.get('*',function(req,res){
 
 
 // port creation 
-const PORT=process.env.PORT || 8080;
+const PORT= 8080;
 app.listen(PORT,()=>{
     console.log(`Node Server running In ${process.env.DEV_MODE} on Port ${process.env.PORT}`.bgBlue.white)
 });
